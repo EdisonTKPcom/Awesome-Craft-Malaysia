@@ -6,15 +6,13 @@
 
 ![Tools](https://img.shields.io/badge/tools-21-6366f1?style=for-the-badge)
 [![Categories](https://img.shields.io/badge/categories-5-0ea5e9?style=for-the-badge)](#contents)
-[![Combined stars](https://img.shields.io/badge/combined_stars-97.1k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
+[![Combined stars](https://img.shields.io/badge/combined_stars-175.0k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
 [![Stars](https://img.shields.io/github/stars/EdisonTKPcom/Awesome-Craft-Malaysia?style=for-the-badge&color=22c55e)](https://github.com/EdisonTKPcom/Awesome-Craft-Malaysia/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/EdisonTKPcom/Awesome-Craft-Malaysia?style=for-the-badge&color=ec4899)](https://github.com/EdisonTKPcom/Awesome-Craft-Malaysia/commits/main)
 
 </div>
 
 Official LHDN and IRBM documentation is a reference, not an open-source tool. Do not assume a generic ERP, POS or CRM is MyInvois-compliant or SST or EPF localized just because it is open source. For ERPNext, MyInvois support documented here is a separate Frappe app, not ERPNext core. For Odoo, official docs describe submission through Odoo registered as an intermediary on the taxpayer MyTax profile. This research did not find a clearly licensed, clearly maintained complete Malaysian statutory payroll package to list as verified.
-
-Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 
 ## Contents
 
@@ -24,6 +22,8 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 - [Verified Malaysia localization in Odoo](#verified-malaysia-localization-in-odoo)
 - [Community documentation](#community-documentation)
 - [Generic tools that need integration](#generic-tools-that-need-integration)
+- [Related lists](#related-lists)
+- [Star history](#star-history)
 
 ## Dashboard
 
@@ -31,14 +31,16 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 <tr>
 <td align="center"><h2>21</h2>listed projects</td>
 <td align="center"><h2>5</h2>categories</td>
-<td align="center"><h2>97.1k</h2>combined GitHub stars</td>
-<td align="center"><h2>47.8k</h2>combined forks</td>
-<td align="center"><h2>2/2</h2>pushed in the last 30 days</td>
-<td align="center"><h2>1</h2>languages</td>
+<td align="center"><h2>175.0k</h2>combined GitHub stars</td>
+<td align="center"><h2>70.0k</h2>combined forks</td>
+<td align="center"><h2>10/12</h2>pushed in the last 30 days</td>
+<td align="center"><h2>5</h2>languages</td>
 </tr>
 </table>
 
-Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted repositories only. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates. Star badges next to GitHub entries update live.
+**FACT** (snapshot taken 2026-11-15, GitHub API): 21 listed projects, 12 of them on GitHub with public repository statistics. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates.
+
+**ESTIMATE**: 175.0k combined GitHub stars and 70.0k combined forks, summed from those API counts on the snapshot date. Live star badges next to GitHub entries may differ.
 
 ### 🏆 Leaderboard
 
@@ -46,6 +48,14 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 <tr><th>Rank</th><th>Project</th><th>Kind</th><th align="right">Stars</th><th></th></tr>
 <tr><td align="center">🥇</td><td><b>Odoo Community</b></td><td>ERP</td><td align="right">55.8k</td><td><code>████████████████████</code></td></tr>
 <tr><td align="center">🥈</td><td><b>ERPNext</b></td><td>ERP</td><td align="right">41.3k</td><td><code>███████████████</code></td></tr>
+<tr><td align="center">🥉</td><td><b>Chatwoot</b></td><td>Support inbox</td><td align="right">39.9k</td><td><code>██████████████</code></td></tr>
+<tr><td align="center">4</td><td><b>Invoice Ninja</b></td><td>Invoicing</td><td align="right">10.6k</td><td><code>████</code></td></tr>
+<tr><td align="center">5</td><td><b>Akaunting</b></td><td>Accounting</td><td align="right">10.3k</td><td><code>████</code></td></tr>
+<tr><td align="center">6</td><td><b>Frappe HR</b></td><td>HR and payroll</td><td align="right">9.1k</td><td><code>███</code></td></tr>
+<tr><td align="center">7</td><td><b>Dolibarr</b></td><td>ERP and CRM</td><td align="right">7.9k</td><td><code>███</code></td></tr>
+<tr><td align="center">8</td><td><b>klsheng/myinvois-php-sdk</b></td><td>MyInvois SDK</td><td align="right">103</td><td><code>█</code></td></tr>
+<tr><td align="center">9</td><td><b>ERPGulf MyInvois</b></td><td>ERPNext MyInvois app</td><td align="right">31</td><td><code>█</code></td></tr>
+<tr><td align="center">10</td><td><b>syukranDev/e-invoice-sdk-nodejs</b></td><td>MyInvois SDK</td><td align="right">13</td><td><code>█</code></td></tr>
 </table>
 
 
@@ -55,15 +65,15 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 pie showData
     title Combined GitHub stars by category
     "Official references" : 0
-    "Verified MyInvois integrations and SDKs" : 0
+    "Verified MyInvois integrations and SDKs" : 147
     "Verified Malaysia localization in Odoo" : 0
-    "Community documentation" : 0
-    "Generic tools that need integration" : 97108
+    "Community documentation" : 10
+    "Generic tools that need integration" : 174844
 ```
 
 ### Licences
 
-![GPL-3.0](https://img.shields.io/badge/GPL--3.0-1-64748b?style=flat-square) ![Custom](https://img.shields.io/badge/Custom-1-64748b?style=flat-square)
+![Custom](https://img.shields.io/badge/Custom-5-64748b?style=flat-square) ![MIT](https://img.shields.io/badge/MIT-3-64748b?style=flat-square) ![GPL-3.0](https://img.shields.io/badge/GPL--3.0-3-64748b?style=flat-square) ![None](https://img.shields.io/badge/None-1-64748b?style=flat-square)
 
 "Custom" or "None" means GitHub could not match a standard SPDX licence, often because of extra terms or an undeclared licence. Read the project licence before you use it commercially.
 
@@ -102,6 +112,28 @@ pie showData
 - [Frappe HR](https://github.com/frappe/hrms) - Open-source HR and payroll on the Frappe framework. No verified EPF, SOCSO, EIS or PCB implementation is claimed here. ![Stars](https://img.shields.io/github/stars/frappe/hrms?style=flat-square&label=%E2%AD%90)
 - [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) - Self-hosted invoicing and client billing. No MyInvois support is claimed here. ![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=flat-square&label=%E2%AD%90)
 - [Odoo Community](https://github.com/odoo/odoo) - Open-source ERP, CRM, POS and accounting. Malaysia-specific behaviour should be taken from the verified modules above, not assumed for every official app. ![Stars](https://img.shields.io/github/stars/odoo/odoo?style=flat-square&label=%E2%AD%90)
+
+## Related lists
+
+Other lists in the Awesome Craft series:
+
+- [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft) - A curated list of open-source, self-hostable alternatives to popular SaaS tools.
+- [Awesome Craft Agents](https://github.com/EdisonTKPcom/Awesome-Craft-Agents) - A curated list of open-source chat apps, coding agents, self-hosted agent bots, workflow automation and image-generation UIs.
+- [Awesome Craft AI](https://github.com/EdisonTKPcom/Awesome-Craft-AI) - A curated list of open-source, self-hostable AI runtimes, servers, Hugging Face libraries and related infrastructure.
+- [Awesome Craft BSC](https://github.com/EdisonTKPcom/Awesome-Craft-BSC) - A curated list of verified open-source clients, SDKs, dev tools and protocol code for BNB Smart Chain and opBNB.
+- [Awesome Craft CUDA](https://github.com/EdisonTKPcom/Awesome-Craft-CUDA) - A curated list of open-source CUDA learning material, kernel libraries, tooling and portability projects.
+- [Awesome Craft DeepSeek](https://github.com/EdisonTKPcom/Awesome-Craft-DeepSeek) - A curated list of official DeepSeek repositories and open-source harnesses, serving engines, eval tools and fine-tuning stacks that work with DeepSeek models.
+- [Awesome Craft DevOps](https://github.com/EdisonTKPcom/Awesome-Craft-DevOps) - A curated list of open-source, self-hostable alternatives to popular DevOps and hosting SaaS tools.
+- [Awesome Craft Ethereum](https://github.com/EdisonTKPcom/Awesome-Craft-Ethereum) - A curated list of verified open-source Ethereum clients, SDKs, dev frameworks, wallets and security tools.
+- [Awesome Craft EV](https://github.com/EdisonTKPcom/Awesome-Craft-EV) - A curated list of open-source software and hardware for electric vehicles and charging.
+- [Awesome Craft Hardware](https://github.com/EdisonTKPcom/Awesome-Craft-Hardware) - A curated list of open-source tools for PCB, FPGA, ASIC and chip design.
+- [Awesome Craft Hyperliquid](https://github.com/EdisonTKPcom/Awesome-Craft-Hyperliquid) - A curated list of verified open-source SDKs, node tools, analytics and community libraries for the Hyperliquid ecosystem.
+- [Awesome Craft Solana](https://github.com/EdisonTKPcom/Awesome-Craft-Solana) - A curated list of verified open-source Solana clients, SDKs, frameworks, explorers and program libraries.
+- [Awesome Craft Web3](https://github.com/EdisonTKPcom/Awesome-Craft-Web3) - A curated list of open-source DEX protocol code, self-custody software, indexers, frameworks and Blockchain infrastructure.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/chart?repos=EdisonTKPcom/Awesome-Craft-Malaysia&amp;type=Date)](https://www.star-history.com/#EdisonTKPcom/Awesome-Craft-Malaysia&Date)
 
 ## Contributing
 
